@@ -1,0 +1,33 @@
+@media screen {
+
+  .sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+  }
+
+  .sidenav h2 {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1a1a1a;
+  }
+
+  .sidenav {
+    margin-top: 150px;
+    margin-left: -10px;
+    display: flex;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    align-items: center;
+    transform: rotate(180deg);
+    position: fixed;
+  }
+
+  .sidenav a:hover {
+    color: #ff96ba;
+  }
+
+
+} /* Ende @media */

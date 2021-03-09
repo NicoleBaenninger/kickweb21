@@ -1,0 +1,50 @@
+/* Text gestalten - Schriften importieren */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+background-color: #2e473b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display Regular", Times, serif;
+}
+
+h1 {
+padding-top: 75px;
+color: #fff5ed;
+font-size: 70px;
+padding-left: 190px;
+font-style: normal;
+background: linear-gradient(#8c7e7b, #d4becf);
+margin-left: 190px;
+margin-right: 200px;
+margin-bottom: 20px;
+}
+
+h3 {
+margin-top: 150px;
+color: #fce6ca;
+font-size: 30px;
+writing-mode: vertical-rl;
+text-orientation: mixed;
+align-items: center;
+transform: rotate(180deg);
+position: fixed;
+padding: 10px;
+border-style: dotted;
+}
+
+p {
+font-family: "Raleway", Helvetica, sans-serif;
+text-align: left;
+writing-mode: vertical-rl;
+text-orientation: upright;
+letter-spacing: 17px;
+line-height: 33px;
+padding-left: 370px;
+padding-right: 692px;
+color: #fce6ca;
+
+}

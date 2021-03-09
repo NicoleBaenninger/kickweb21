@@ -1,0 +1,34 @@
+@media screen {
+
+  body {
+  background-color: #faf0e6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display Regular", Times, serif;
+  }
+
+  h1 {
+  padding-top: 75px;
+  color: #1a1a1a;
+  font-size: 70px;
+  padding-left: 370px;
+  font-style: normal;
+  margin-bottom: 10px;
+  }
+
+  h2 {
+  color: #1a1a1a;
+  }
+
+  p {
+  font-family: "Raleway", Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 370px;
+  padding-right: 692px;
+  color: #1a1a1a;
+  line-height: 23px;
+  }
+
+
+} /* Ende @media */

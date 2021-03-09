@@ -1,0 +1,34 @@
+
+body {
+background-color: #eddfe4;
+}
+
+.container {
+  width: 400px;
+  border-width: 10px;
+  border-color: Black;
+}
+
+.image {
+  width: 400px;
+  height: 267px;
+  background: url("assets/images/popcat.jpg") no-repeat;
+  display: inline-block;
+}
+
+.image {
+  background: url("assets/images/cat_shock.jpg") no-repeat;
+  opacity: 1;
+}
+
+.meow {
+  opacity: 0;
+}
+
+.container:hover .meow{
+  opacity: 1;
+}
+
+.text{
+  width: 400px;
+}
