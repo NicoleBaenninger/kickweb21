@@ -1,34 +1,31 @@
-
 body {
 background-color: #eddfe4;
 }
 
-.container {
-  width: 400px;
-  border-width: 10px;
-  border-color: Black;
+img {
+  position: relative;
+  padding-left: 180px;
+  width: 370px;
+  height: auto;
 }
 
-.image {
-  width: 400px;
-  height: 267px;
-  background: url("assets/images/popcat.jpg") no-repeat;
-  display: inline-block;
+img.popcat {
+  display: flex;
+  width: 300px;
+  height: auto;
 }
 
-.image {
-  background: url("assets/images/cat_shock.jpg") no-repeat;
-  opacity: 1;
+img.cat_shock {
+  margin: 0 auto;
+  display: flex;
+  width: 300px;
+  height: auto;
+  padding-top: 4%;
 }
 
-.meow {
-  opacity: 0;
-}
-
-.container:hover .meow{
-  opacity: 1;
-}
-
-.text{
-  width: 400px;
+img.longcat {
+  float: right;
+  width: 300px;
+  height: auto;
+  padding-top: 4%;
 }
