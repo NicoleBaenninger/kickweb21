@@ -13,6 +13,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -20,8 +22,8 @@ body {
 }
 
 .container {
-  width: 1145px;
-  height: 1642px;
+  height: 100%;
+  width: 35%;
   display: inline-block;
   background-color: #633c36;
 }
@@ -33,36 +35,37 @@ h1 {
 }
 
 .title1 {
-  font-size: 400px;
-  text-indent: -18px;
-  letter-spacing: -20px;
-  line-height: 380px;
+  font-size: 236px;
+  text-indent: -10px;
+  line-height: 217px;
+  letter-spacing: -13px;
 }
 
 .title2 {
-  font-size: 402px;
-  letter-spacing: -22px;
-  line-height: 240px;
+  font-size: 235px;
+  text-indent: -2px;
+  line-height: 140px;
+  letter-spacing: -12px;
 }
 
 h3 {
-  font-size: 57px;
-  padding-top: 562px;
-  padding-left: 24px;
+  font-size: 32px;
+  padding-top: 53%;
+  padding-left: 2%;
   color: #332624;
-  line-height: 48px;
+  line-height: 28px;
 }
 
 .square {
-  width: 1008px;
-  height: 904px;
+  width: 88%;
+  height: 55%;
   background: #b72e2c;
-  margin-top: 60px;
-  margin-left: 61px;
+  margin-left: 5%;
 }
 
 img {
   position: absolute;
   top: 0;
-  left: 1200px;
+  left: 800px;
+  height: 100%;
 }
