@@ -41,7 +41,7 @@ h1 {
   line-height: 217px;
   letter-spacing: -13px;
   animation-name: animation-title1;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
 }
 
 @keyframes animation-title1 {
@@ -55,7 +55,7 @@ h1 {
   line-height: 140px;
   letter-spacing: -12px;
   animation-name: animation-title2;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
@@ -76,27 +76,27 @@ h1 {
 }
 
 .h3_2 {
-  animation-delay: 4s;
+  animation-delay: 3.9s;
 }
 
 .h3_3 {
-  animation-delay: 4.5s;
+  animation-delay: 4.3s;
 }
 
 .h3_4 {
-  animation-delay: 5s;
+  animation-delay: 4.7s;
 }
 
 .h3_5 {
-  animation-delay: 5.5s;
+  animation-delay: 5.1s;
 }
 
 .h3_6 {
-  animation-delay: 6s;
+  animation-delay: 5.5s;
 }
 
 .h3_7 {
-  animation-delay: 6.5s;
+  animation-delay: 5.9s;
 }
 
 h3 {
@@ -123,7 +123,7 @@ h3 {
   margin-left: 5%;
   animation-name: scale;
   /*animation-name: rotating;*/
-  animation-duration: 1.5s;
+  animation-duration: 1.25s;
   animation-timing-function: ease-in-out;
   animation-delay: 2s;
   animation-fill-mode: backwards;
