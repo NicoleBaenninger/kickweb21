@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Questrial", Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  width: 35%;
+  display: inline-block;
+  background-color: #633c36;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #332624;
+}
+
+.title1 {
+  font-size: 236px;
+  text-indent: -10px;
+  line-height: 217px;
+  letter-spacing: -13px;
+  animation-name: animation-title1;
+  animation-duration: 1s;
+}
+
+@keyframes animation-title1 {
+  0% {transform: translateX(-120%);}
+  100% {transform: translateX(0);}
+}
+
+.title2 {
+  font-size: 235px;
+  text-indent: -2px;
+  line-height: 140px;
+  letter-spacing: -12px;
+  animation-name: animation-title2;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animation-title2 {
+  0% {transform: translateX(120%); opacity: 0;}
+  100% {transform: translateX(0); opacity: 1;}
+}
+
+.h3-wrapper {
+  padding-top: 53%;
+  padding-left: 2%;
+  margin-top: 5.5%;
+}
+
+.h3_1 {
+  animation-delay: 3.5s;
+}
+
+.h3_2 {
+  animation-delay: 4s;
+}
+
+.h3_3 {
+  animation-delay: 4.5s;
+}
+
+.h3_4 {
+  animation-delay: 5s;
+}
+
+.h3_5 {
+  animation-delay: 5.5s;
+}
+
+.h3_6 {
+  animation-delay: 6s;
+}
+
+.h3_7 {
+  animation-delay: 6.5s;
+}
+
+h3 {
+  font-size: 32px;
+  color: #332624;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+  animation-name: animation-h3;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animation-h3 {
+  0% {transform: translateY(700%); opacity: 0;}
+  100% {transform: translateY(0); opacity: 1;}
+}
+
+.square {
+  width: 88%;
+  height: 55%;
+  background: #b72e2c;
+  margin-left: 5%;
+  animation-name: scale;
+  /*animation-name: rotating;*/
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes scale {
+  0% {transform: scale(0); opacity: 0;}
+  100% {transform: scale(1); opacity: 1;}
+}
+
+/*@keyframes rotating {
+  0%  { transform: rotate(0);}
+  100%{ transform: rotate(1turn);}*/
+
+img {
+  position: absolute;
+  top: 0;
+  left: 800px;
+  height: 100%;
+}
