@@ -45,8 +45,13 @@ h1 {
 }
 
 @keyframes animation-title1 {
-  0% {transform: translateX(-120%);}
-  100% {transform: translateX(0);}
+  0% {
+    transform: translateX(-120%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .title2 {
@@ -61,8 +66,15 @@ h1 {
 }
 
 @keyframes animation-title2 {
-  0% {transform: translateX(120%); opacity: 0;}
-  100% {transform: translateX(0); opacity: 1;}
+  0% {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .h3-wrapper {
@@ -112,8 +124,15 @@ h3 {
 }
 
 @keyframes animation-h3 {
-  0% {transform: translateY(700%); opacity: 0;}
-  100% {transform: translateY(0); opacity: 1;}
+  0% {
+    transform: translateY(700%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .square {
@@ -122,7 +141,6 @@ h3 {
   background: #b72e2c;
   margin-left: 5%;
   animation-name: scale;
-  /*animation-name: rotating;*/
   animation-duration: 1.25s;
   animation-timing-function: ease-in-out;
   animation-delay: 2s;
@@ -130,13 +148,16 @@ h3 {
 }
 
 @keyframes scale {
-  0% {transform: scale(0); opacity: 0;}
-  100% {transform: scale(1); opacity: 1;}
-}
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
 
-/*@keyframes rotating {
-  0%  { transform: rotate(0);}
-  100%{ transform: rotate(1turn);}*/
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 img {
   position: absolute;
