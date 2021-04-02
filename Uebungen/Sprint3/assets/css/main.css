@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Questrial", Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+  .container {
+  width: calc(1.35 * 500px);
+  height: calc(1.4 * 707px);
+  display: inline-block;
+  background-color: #633c36;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #332624;
+}
+
+.title1 {
+  font-size: 236px;
+  text-indent: -10px;
+  line-height: 217px;
+  letter-spacing: -13px;
+}
+
+.title2 {
+  font-size: 235px;
+  text-indent: -2px;
+  line-height: 140px;
+  letter-spacing: -12px;
+}
+
+.h3-wrapper {
+  padding-top: 53%;
+  padding-left: 2%;
+  margin-top: 5.5%;
+}
+
+h3 {
+  font-size: 32px;
+  color: #332624;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.square {
+  width: 88%;
+  height: 52%;
+  background: #b72e2c;
+  margin-left: 5%;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 800px;
+  height: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 930px){
+  body {
+    background-color: #fff5fa;
+    overflow: hidden;
+  }
+
+  .container {
+    width: calc(1.08 * 500px);
+    height: calc(1.08 * 707px);
+    display: inline-block;
+    background-color: #bd8f8f;
+  }
+
+  .title1 {
+    font-size: calc(382px * 0.5);
+    text-indent: -10px;
+    line-height: 175px;
+    letter-spacing: -11px;
+    color: #ffc2c2;
+  }
+
+  .title2 {
+    font-size: calc(379px * 0.5);
+    text-indent: -2px;
+    line-height: 115px;
+    letter-spacing: -10px;
+    color: #ebb5c5;
+  }
+
+  .h3-wrapper {
+    padding-top: 53%;
+    padding-left: 1.8%;
+    margin-top: 5.5%;
+  }
+
+  h3 {
+    font-size: 27px;
+    color: #8c767b;
+    line-height: 24px;
+  }
+
+  .square {
+    width: 87%;
+    height: 55%;
+    background: #edb4b4;
+    margin-left: 6%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #f7f7ff;
+    overflow: hidden;
+  }
+
+  .container {
+    width: calc(0.77 * 500px);
+    height: calc(0.77 * 707px);
+    display: inline-block;
+    background-color: #c0cccc;
+  }
+
+  .title1 {
+    font-size: calc(273px * 0.5);
+    text-indent: -7px;
+    line-height: 125px;
+    letter-spacing: -8px;
+    color: #dfeded;
+  }
+
+  .title2 {
+    font-size: calc(270px * 0.5);
+    text-indent: -2px;
+    line-height: 81px;
+    letter-spacing: -7px;
+    color: #f0ffff;
+  }
+
+  .h3-wrapper {
+    padding-top: 54%;
+    padding-left: 1.8%;
+    margin-top: 5.5%;
+  }
+
+  h3 {
+    font-size: 19px;
+    color: #e1eded;
+    line-height: 17px;
+  }
+
+  .square {
+    width: 87%;
+    height: 55%;
+    background: #848c8c;
+    margin-left: 6%;
+  }
+
+}
